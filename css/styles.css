@@ -1,0 +1,211 @@
+body {
+  font-family: "Montserrat";
+  background-color: #071b4d;
+  color: darkblue
+}
+
+/* Title Section */
+
+title {
+
+  color: darkblue;
+}
+
+.desc {
+  color: black;
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+  /* transform: rotate(25deg); */
+  /* position: absolute; */
+  opacity: 1;
+  height: 400px;
+  width: 600px;
+  /* background-color: #2fb0b4; */
+}
+
+/* Features Section */
+
+#features {
+  background-color: black;
+  padding: 7%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 2%;
+  text-align: center;
+}
+
+.feature-box h5 {
+  font-weight: bold;
+  /* color: rgb(7, 9, 102); */
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.icon:hover {
+  color: #2fb0b4;
+}
+
+/* Benefits Section */
+
+#benefits {
+  background-color: #c3e9ee;
+  color: rgb(2, 2, 63);
+  text-align: center;
+  height: 420px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-item h2 {
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Past Reports Section */
+
+#past-reports {
+  padding: 90px;
+  text-align: left;
+}
+
+#past-reports h3 {
+  color: rgb(7, 9, 102);
+  padding: 20px 80px;
+  font-size: 2rem;
+}
+
+#past-reports a {
+  font-size: 1.2rem;
+  /* line-height: 2.5em; */
+  display: block;
+  padding: 10px 80px 10px;
+}
+
+#past-reports img {
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  margin-left: 80px;
+}
+/* Contact Section */
+
+#Contact {
+  background-color: #071b4d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: normal;
+  padding: 5%;
+  text-align: center;
+  height: 180px;
+}
+
+.social-icon {
+  color: rgb(122, 122, 121);
+  margin: 0 10px 20px;
+}
+
+@media (max-width: 800px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    height: 150px;
+    width: 200px;
+  }
+  .feature-box {
+    padding: 4% 10%;
+  }
+  #benefits {
+    height: 350px;
+  }
+  .carousel-item h2 {
+    font-size: 2rem;
+  }
+
+  #past-reports {
+    padding: 50px;
+  }
+
+  #past-reports img {
+    height: 250px;
+    width: 300px;
+    padding-top: 30px;
+  }
+}
+
+

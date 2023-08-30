@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#benefits-carousel {
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.heading-div {
+  background: linear-gradient(180deg, white 0%, white 100%);
+  box-shadow: 6px 10px 10px 1px deepskyblue;
+  width: 600px;
+  border-radius: 100px;
+  margin: 40vh 60vh;
+  padding: 20px;
+  text-align: center;
+}
+
+#benefits-carousel h1 {
+  color: darkblue;
+  /* rgb(26, 2, 83); */
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#img-div1 {
+  background: url("/images/manufacturing.jpeg") center/cover no-repeat fixed;
+}
+
+#img-div2 {
+  background: url("/images/hospital1.jpg") center/cover no-repeat fixed;
+}
+
+#img-div3 {
+  background: url("/images/education.jpg") center/cover no-repeat fixed;
+}
+
+#img-div4 {
+  background: url("/images/restaurant.jpg") center/cover no-repeat fixed;
+}
+
+#img-div5 {
+  background: url("/images/hospital.jpg") center/cover no-repeat fixed;
+}
+
+#img-div6 {
+  background: url("/images/auditscreen.jpeg") center/cover no-repeat fixed;
+}
+
+.carousel-img {
+  height: 500px;
+  width: 500px;
+}
+
+#sectors {
+  height: 80vh;
+  min-height: auto;
+  padding: 10px;
+  background-color: #adccdf;
+  color: rgb(2, 2, 63);
+  text-align: center;
+}
+
+.sectors-carousel {
+  padding: 7% 15%;
+}
+
+.sectors-carousel p {
+  margin-top: 20px;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100% 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: red;
+} */
+
+a:hover {
+  text-decoration: none;
+}
+
+.sectors-icon {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+  border: none;
+}
+
+#footer {
+  /* min-height: 50vh; */
+  /* background: linear-gradient(rgb(2, 2, 2), rgb(26, 2, 83)) center/cover
+    no-repeat fixed; */
+  background-color:rgb(1, 1, 54);
+  text-align: center;
+  padding: 0 5% 5% 5%;
+  /* position: relative;
+  z-index: 1; */
+}
+
+.footer-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#footer p {
+  padding: 40px 30px 30px;
+  color: rgb(2, 2, 63);
+  letter-spacing: 0.3px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color: rgb(1,1,54);
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+.responsive{
+  width:100%;
+  height:100%;
+}
+@media screen and (max-width: 600px) {
+  .responsive.responsive {display: none;}
+  .responsive.responsive  {
+    position: absolute;
+    width:60px;
+    height:50p
+  }
+}

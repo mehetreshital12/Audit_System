@@ -1,0 +1,72 @@
+body {
+  background-color: #34aed1;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  width: 350px;
+  margin: -140px 0 0 -182px;
+  padding: 40px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+section img {
+  height: 48px;
+  width: 45px;
+  padding-bottom: 12px;
+  padding-right: 5px;
+}
+
+.navbar-brand {
+  font-size: 2.3rem;
+  color: #02096d;
+  font-family: "Lato";
+  font-weight: bold;
+  padding-bottom: 15px;
+  margin-left: 3px;
+}
+
+.form h2 {
+  margin: 0 0 20px;
+  line-height: 1;
+  color: #44c4e7;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s linear;
+  border-radius: 5px;
+}
+
+.form input:focus {
+  color: #333;
+  border: 1px solid #44c4e7;
+}
+
+button {
+  cursor: pointer;
+  background: #44c4e7;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}

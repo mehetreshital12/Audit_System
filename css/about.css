@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat";
+  background-color: rgb(1, 1, 54);
+}
+
+/* Title Section */
+
+#title {
+  background-color:rgb(1, 1, 54);
+  color: rgb(7, 9, 102);
+}
+
+.desc {
+  color: black;
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+  /* transform: rotate(25deg); */
+  /* position: absolute; */
+  opacity: 1;
+  height: 400px;
+  width: 600px;
+  /* background-color: #2fb0b4; */
+}
+
+/* Mission Section */
+#mission {
+  background-color: white;
+  text-align: left;
+  padding: 4% 5% 0;
+}
+
+.mission-img {
+  width: 80%;
+  height: 85%;
+  border-radius: 20px;
+}
+
+#mission h3 {
+  padding: 70px 30px 0px;
+}
+
+#mission p {
+  padding: 30px 30px 0px;
+  line-height: 2;
+  color: #8f8f8f;
+}
+
+/* Ethos Section*/
+
+#ethos {
+  background-color: white;
+  text-align: left;
+  padding: 3% 6% 5%;
+}
+
+.ethos-img {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+#ethos p,
+h3 {
+  padding: 30px 30px 0px;
+  line-height: 2;
+}
+
+/* Contact Section */
+
+#Contact {
+  background-color: #071b4d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: normal;
+  padding: 5%;
+  text-align: center;
+  height: 180px;
+}
+
+.social-icon {
+  color: rgb(122, 122, 121);
+  margin: 0 10px 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    height: 350px;
+    width: 300px;
+  }
+}

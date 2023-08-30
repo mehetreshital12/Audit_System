@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 11000vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #0c0147;
+  /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #0390a2;
+  padding: 15px 30px 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  overflow: auto;
+}
+.container .title {
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  padding-bottom: 10px;
+}
+.container .title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.content form .audit-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  padding: 30px 30px;
+}
+form .audit-details .fields {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form span.details {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+table {
+  width: 520px;
+}
+
+td,
+th {
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+td:empty {
+  display: none;
+}
+
+.grey {
+  background-color: #f6f9fc;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  border-spacing: 2px;
+}
+
